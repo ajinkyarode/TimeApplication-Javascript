@@ -1,0 +1,8 @@
+# TimeApplication-Javascript
+
+Instructions to open the application:
+1) Extract the contents of the zip folder to a New Folder (or any folder, but place all files together)
+2) Once extracted, open the Login.html file in Chrome browser (or any other browser)
+3) The default credentials for the login are 'admin' and 'password'
+
+Note: The application is entirely based on client side so executable file is not needed.
