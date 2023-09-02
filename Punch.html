@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Punch Page</title>
+        <link rel="stylesheet" type="text/css" href="login.css">
+        <script type="text/javascript" >
+            function preventBack(){window.history.forward();}
+             setTimeout("preventBack()", 0);
+             window.onunload=function(){null};
+         </script>
+    </head>
+    <body>
+            <div class="titlebar">
+                <p id="welcome"></p>
+                <a id="logout" href="Logout.html">[Logout]</a>
+            </div>
+            
+            <div id = "clock"></div>
+            <div id="button-title"><p>Punch Meal Break</p>
+              </div>
+            <div class = "buttons">
+                <img src="http://www.clker.com/cliparts/B/K/L/P/e/5/play-button-hi.png" width="5%" height="5%" id="punch" />
+                <img src="https://thumbs.dreamstime.com/b/menu-food-dish-icon-isolated-elegant-green-round-button-abstract-illustration-menu-food-dish-icon-elegant-green-round-button-104812375.jpg" width="5%" height="5%" id="meal" />
+                <img src="https://image.shutterstock.com/image-illustration/coffee-cup-icon-isolated-on-260nw-585542504.jpg" width="5%" height="5%" id="break" />
+            </div>     
+            <div id="punch-error-msg-holder">
+                <p id="punch-error-msg">Error</p>
+              </div>
+            <div id="t1">
+                <table id="timecard">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Shift</th>
+                            <th>Time In</th>
+                            <th>Time Out</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+                <table id="timecard-history">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Shift</th>
+                            <th>Time In</th>
+                            <th>Time Out</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        <script defer src="punch.js"></script>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Paranoid Login</title>
+        <link rel="stylesheet" type="text/css" href="login.css">
+        <script type="text/javascript" >
+            function preventBack(){window.history.forward();}
+             setTimeout("preventBack()", 0);
+             window.onunload=function(){null};
+         </script>
+    </head>
+    <body>
+        <div class="titlebar"></div>
+        <div id="logo"><img src="https://i.pinimg.com/564x/26/49/7e/26497e35284730778dd396c19c3650d1.jpg" width="15%" height="15%"></img></div>
+        <div id = "subbuttons">
+            <button id="relogin">Go to Login</button>
+        </div>
+        <div class="bottomcredits">
+            <p>Copyrights: Time Management Corporation</p>
+        </div>
+        <script defer src="logout.js"></script>
+    </body>
+</html>

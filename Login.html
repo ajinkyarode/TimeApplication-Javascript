@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Time Management Login</title>
+        <link rel="stylesheet" type="text/css" href="login.css">
+        <script type="text/javascript" >
+            function preventBack(){window.history.forward();}
+             setTimeout("preventBack()", 0);
+             window.onunload=function(){null};
+         </script>
+    </head>
+    <body>
+        <div class="titlebar"></div>
+        <div id="logo"><img src="https://i.pinimg.com/564x/26/49/7e/26497e35284730778dd396c19c3650d1.jpg" width="15%" height="15%"></img></div>
+        <div class="login">
+            <form id="login-input">
+                <input type="text" name="username" id="username" placeholder="Username">
+                <input type="password" name="password" id="password" placeholder="Password">
+                <input type="submit" value="Login" id="submit"></form>
+        </div> 
+        <div id="login-error-msg-holder">
+            <p id="login-error-msg">Invalid username and/or password</p>
+        </div>
+        <div class="bottomcredits"><p>Copyrights: Time Management Corporation</p></div>
+        <script defer src="login.js"></script>
+    </body>
+</html>
