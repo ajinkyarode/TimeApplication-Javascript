@@ -2,7 +2,7 @@
 
 This Application was developed to practice and get hands on JavaScript, HTML and CSS
 
-The goal of the application is to implement a simple application that performs basic time management for the employees of an organization.
+The goal is to implement simple application that performs basic time management for the employees of an organization.
 
 The employees can perform different punch activities and certain conditions are implemented to perform time punches in a specific way to avoid any undesirable conditions using JavaScript.
 
